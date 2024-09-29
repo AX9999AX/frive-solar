@@ -50,7 +50,7 @@ export default function Header() {
         </NavigationMenu>
       </div>
       <div className="col-span-2 flex justify-center">
-        <Button className="bg-[#F7C33D]">Data</Button>
+        <Button className="bg-[#F7C33D]">Get more info</Button>
       </div>
     </header>
   );

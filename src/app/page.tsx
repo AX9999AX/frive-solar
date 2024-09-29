@@ -1,3 +1,4 @@
+import ContactForm from "./components/ContactForm";
 import Earnings from "./components/Earnings";
 import FAQ from "./components/FAQ";
 import Header from "./components/Header";
@@ -16,6 +17,7 @@ export default function Home() {
       <HowItWorks />
       <Earnings />
       <FAQ />
+      <ContactForm />
     </>
   );
 }
