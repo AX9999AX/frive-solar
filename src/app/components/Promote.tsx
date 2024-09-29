@@ -1,6 +1,13 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Image from "next/image";
-import { PCIcon, SoulutionIcon, StarIcon, SunIcon } from "./icons/icons";
+import {
+  ConsoleIcon,
+  PCIcon,
+  SoulutionIcon,
+  StarIcon,
+  SunIcon,
+  UniqueSolutionIcon,
+} from "./icons/icons";
 
 export default function Promote() {
   return (
@@ -81,7 +88,7 @@ export default function Promote() {
             <div className="col-span-12 lg:col-span-6">
               <CardHeader>
                 <CardTitle className="grid grid-cols-1 gap-2 font-inter text-[19.77px] font-semibold leading-[23.73px] text-left">
-                  <SoulutionIcon />
+                  <UniqueSolutionIcon />
                   Unique Solution
                 </CardTitle>
               </CardHeader>
@@ -93,7 +100,7 @@ export default function Promote() {
                 </p>
               </CardContent>
             </div>
-            <div className="hidden lg:flex col-span-6 justify-center items-center">
+            <div className="hidden lg:flex col-span-6 justify-center items-center my-4">
               <Image
                 width={218}
                 height={214}
@@ -107,7 +114,7 @@ export default function Promote() {
         <Card className="col-span-12 sm:col-span-6 lg:col-span-3">
           <CardHeader>
             <CardTitle className="grid grid-cols-1 gap-2 font-inter text-[19.77px] font-semibold leading-[23.73px] text-left">
-              <SunIcon />
+              <ConsoleIcon />
               Useful App
             </CardTitle>
           </CardHeader>
