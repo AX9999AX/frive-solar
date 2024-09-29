@@ -13,7 +13,7 @@ export default function Header() {
   return (
     <header className="container mx-auto p-4 grid grid-cols-12 gap-4">
       <div className="col-span-6 md:col-span-2 flex items-center font-raleway text-[24px] font-bold leading-[24px] text-center">
-        <LogoIcon />{" "}
+        <LogoIcon />
         <span className="ml-4 font-raleway text-[24px] font-bold leading-[24px] text-center">
           Drive Solar
         </span>
