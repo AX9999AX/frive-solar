@@ -2,7 +2,7 @@ import { LogoIcon } from "./icons/icons";
 
 export default function Footer() {
   return (
-    <footer className="bg-white p-4 m-20 rounded-3xl">
+    <footer className="bg-white p-4 mx-20 mt-20 rounded-3xl">
       <div className="container mx-auto flex justify-between items-center px-4">
         <div className="flex flex-col space-y-2">
           <div className="flex items-center space-x-2">

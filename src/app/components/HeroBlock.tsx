@@ -6,7 +6,7 @@ export default function HeroBlock() {
       id="hero-block"
       className="container max-w-xl mx-auto flex-col py-20 justify-center items-center"
     >
-      <h1 className="w-full font-[Raleway] text-[73.34px] font-bold leading-[73.34px] text-center">
+      <h1 className="w-full font-raleway text-[73.34px] font-bold leading-[73.34px] text-center">
         Drive Solar <br />
         Make Life Easier <br />
         Connect

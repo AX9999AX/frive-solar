@@ -110,6 +110,27 @@ export function SoulutionIcon(svgProps: SVGProps<SVGSVGElement>) {
   );
 }
 
+export function TickIcon(svgProps: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...svgProps}
+    >
+      <path
+        d="M6 10.25L8.5 12.75L14 7.25M19 10C19 5.02944 14.9706 1 10 1C5.02944 1 1 5.02944 1 10C1 14.9706 5.02944 19 10 19C14.9706 19 19 14.9706 19 10Z"
+        stroke="#252432"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+}
+
 export function IconNumber1() {
   return (
     <div className="flex justify-center items-center h-11 w-11 bg-[#F5F8FF] font-inter text-[24px] font-semibold leading-[28.8px] text-left">

@@ -9,7 +9,7 @@ import {
 
 export default function FAQ() {
   return (
-    <section className="container mx-auto px-4 py-20 grid grid-cols-12 gap-4 bg-[url('/img/faq.svg')] bg-no-repeat bg-[length:50%] bg-[position:0%_40%]">
+    <section className="container mx-auto px-4 py-20 grid grid-cols-12 gap-4 bg-[url('/img/spin.png')] bg-no-repeat bg-[length:35%] bg-[position:0%_40%]">
       <div className="col-span-4">
         <h2 className="font-raleway text-[60px] font-bold leading-[72px] text-left">
           Frequently <br /> Asked <br /> Questions
