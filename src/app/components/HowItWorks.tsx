@@ -4,8 +4,11 @@ import Image from "next/image";
 
 export default function HowItWorks() {
   return (
-    <section className="container mx-auto px-4 bg-[url('/img/howItWorks.svg')] bg-no-repeat bg-[length:25%] bg-[position:95%_50%]">
-      <h2 className="font-raleway text-[60px] font-bold leading-[72px] text-left mb-4">
+    <section
+      id="how-it-works"
+      className="container mx-auto px-4 bg-[url('/img/howItWorks.svg')] bg-no-repeat bg-[length:25%] bg-[position:95%_50%]"
+    >
+      <h2 className="font-raleway text-[60px] font-bold leading-[72px] text-left mb-8">
         How it Works
       </h2>
       <div className="grid grid-cols-12 gap-4">

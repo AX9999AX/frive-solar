@@ -9,7 +9,10 @@ import { Button } from "@/components/ui/button";
 
 export default function Earnings() {
   return (
-    <section className="container mx-auto px-4 py-20 grid grid-cols-12 gap-4">
+    <section
+      id="earnings"
+      className="container mx-auto px-4 py-20 grid grid-cols-12 gap-4"
+    >
       <div className="col-span-3 grid grid-cols-1 gap-6">
         <h2 className="font-raleway text-[60px] font-bold leading-[72px] text-left">
           Earnings

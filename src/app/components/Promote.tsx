@@ -4,8 +4,8 @@ import { PCIcon, SoulutionIcon, StarIcon, SunIcon } from "./icons/icons";
 
 export default function Promote() {
   return (
-    <section className="container mx-auto px-4 py-20">
-      <h2 className="font-raleway text-[60px] font-bold leading-[72px] text-left">
+    <section id="promote" className="container mx-auto px-4 py-20">
+      <h2 className="font-raleway text-[60px] font-bold leading-[72px] text-left mb-8">
         What We Promote
       </h2>
       <div className="grid grid-cols-12 gap-4">
@@ -77,19 +77,33 @@ export default function Promote() {
           </CardContent>
         </Card>
         <Card className="col-span-12 sm:col-span-6 lg:col-span-6">
-          <CardHeader>
-            <CardTitle className="grid grid-cols-1 gap-2 font-inter text-[19.77px] font-semibold leading-[23.73px] text-left">
-              <SoulutionIcon />
-              Unique Solution
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <p className="font-inter text-[14px] font-normal leading-[21px] text-left text-[#8987A1] mb-6">
-              Our unique solar solutions combine cutting-edge technology with
-              user-centric designs, making renewable energy more accessible and
-              efficient
-            </p>
-          </CardContent>
+          <div className="grid grid-cols-12 gap-4">
+            <div className="col-span-6">
+              <CardHeader>
+                <CardTitle className="grid grid-cols-1 gap-2 font-inter text-[19.77px] font-semibold leading-[23.73px] text-left">
+                  <SoulutionIcon />
+                  Unique Solution
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="font-inter text-[14px] font-normal leading-[21px] text-left text-[#8987A1] mb-6">
+                  Our unique solar solutions combine cutting-edge technology
+                  with user-centric designs, making renewable energy more
+                  accessible and efficient
+                </p>
+              </CardContent>
+            </div>
+            <div className="col-span-6 flex justify-center items-center">
+              <Image
+                width={238}
+                height={257}
+                layout="responsive"
+                src="/img/house-and-car.png"
+                alt="Image"
+                className="w-full h-64 rounded-md object-cover"
+              />
+            </div>
+          </div>
         </Card>
         <Card className="col-span-12 sm:col-span-6 lg:col-span-3">
           <CardHeader>

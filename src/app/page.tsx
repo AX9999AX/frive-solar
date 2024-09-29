@@ -1,6 +1,7 @@
 import ContactForm from "./components/ContactForm";
 import Earnings from "./components/Earnings";
 import FAQ from "./components/FAQ";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HeroBlock from "./components/HeroBlock";
 import HowItWorks from "./components/HowItWorks";
@@ -18,6 +19,7 @@ export default function Home() {
       <Earnings />
       <FAQ />
       <ContactForm />
+      <Footer />
     </>
   );
 }
