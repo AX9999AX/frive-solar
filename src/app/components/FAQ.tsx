@@ -9,7 +9,7 @@ import {
 
 export default function FAQ() {
   return (
-    <section className="container mx-auto px-20 py-20 grid grid-cols-12 gap-4 bg-[url('/img/faq.svg')] bg-[length:60%] bg-[position:50%_10%]">
+    <section className="container mx-auto px-4 py-20 grid grid-cols-12 gap-4 bg-[url('/img/faq.svg')] bg-no-repeat bg-[length:50%] bg-[position:0%_40%]">
       <div className="col-span-4">
         <h2 className="font-raleway text-[60px] font-bold leading-[72px] text-left">
           Frequently <br /> Asked <br /> Questions
@@ -28,17 +28,43 @@ export default function FAQ() {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
-            <AccordionTrigger>Is it styled?</AccordionTrigger>
-            <AccordionContent>
-              Yes. It comes with default styles that matches the other
-              components&apos; aesthetic.
+            <AccordionTrigger className="font-raleway text-[18px] font-bold leading-[21.6px] text-left">
+              What services do you offer?
+            </AccordionTrigger>
+            <AccordionContent className="font-inter text-[16px] font-normal leading-[24px] text-left text-[#8987A1]">
+              You can reach us through our contact form on our website or by
+              emailing us at hello@drivesolar.com We typically respond within 24
+              hours.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
-            <AccordionTrigger>Is it animated?</AccordionTrigger>
-            <AccordionContent>
-              Yes. It&apos;s animated by default, but you can disable it if you
-              prefer.
+            <AccordionTrigger className="font-raleway text-[18px] font-bold leading-[21.6px] text-left">
+              How to connect my solar station?
+            </AccordionTrigger>
+            <AccordionContent className="font-inter text-[16px] font-normal leading-[24px] text-left text-[#8987A1]">
+              You can reach us through our contact form on our website or by
+              emailing us at hello@drivesolar.com We typically respond within 24
+              hours.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-4">
+            <AccordionTrigger className="font-raleway text-[18px] font-bold leading-[21.6px] text-left">
+              How to earn from it?
+            </AccordionTrigger>
+            <AccordionContent className="font-inter text-[16px] font-normal leading-[24px] text-left text-[#8987A1]">
+              You can reach us through our contact form on our website or by
+              emailing us at hello@drivesolar.com We typically respond within 24
+              hours.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-5">
+            <AccordionTrigger className="font-raleway text-[18px] font-bold leading-[21.6px] text-left">
+              Is there any fee for connecting my charging station?
+            </AccordionTrigger>
+            <AccordionContent className="font-inter text-[16px] font-normal leading-[24px] text-left text-[#8987A1]">
+              You can reach us through our contact form on our website or by
+              emailing us at hello@drivesolar.com We typically respond within 24
+              hours.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
