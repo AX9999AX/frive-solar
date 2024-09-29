@@ -18,7 +18,7 @@ export default function Home() {
       <HowItWorks />
       <Earnings />
       <FAQ />
-      <div className="pb-20 bg-[url('/img/footer-bg.png')] bg-no-repeat">
+      <div className="pb-20 bg-[url('/img/footer-bg.png')] bg-no-repeat bg-[position:50%_50%]">
         <ContactForm />
         <Footer />
       </div>

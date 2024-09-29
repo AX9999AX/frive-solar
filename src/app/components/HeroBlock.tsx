@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function HeroBlock() {
   return (
@@ -12,8 +13,11 @@ export default function HeroBlock() {
         Connect
       </h1>
       <div className="w-full flex justify-center mt-10">
-        <Button className="w-56 h-10 font-raleway text-[16px] font-bold leading-[24px] text-center">
-          Get in Touch
+        <Button
+          asChild
+          className="w-56 h-10 font-raleway text-[16px] font-bold leading-[24px] text-center"
+        >
+          <Link href="/#contact-us">Get in Touch</Link>
         </Button>
       </div>
     </section>

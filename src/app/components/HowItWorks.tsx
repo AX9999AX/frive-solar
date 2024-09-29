@@ -9,7 +9,7 @@ export default function HowItWorks() {
         How it Works
       </h2>
       <div className="grid grid-cols-12 gap-4">
-        <Card className="col-span-12 sm:col-span-3 lg:col-span-3">
+        <Card className="col-span-12 lg:col-span-3">
           <CardHeader>
             <CardTitle className="grid grid-cols-1 gap-2 font-inter text-[19.77px] font-semibold leading-[23.73px] text-left">
               <IconNumber1 />
@@ -32,7 +32,7 @@ export default function HowItWorks() {
             />
           </CardContent>
         </Card>
-        <Card className="col-span-12 sm:col-span-3 lg:col-span-3">
+        <Card className="col-span-12 lg:col-span-3">
           <CardHeader>
             <CardTitle className="grid grid-cols-1 gap-2 font-inter text-[19.77px] font-semibold leading-[23.73px] text-left">
               <IconNumber2 />
@@ -54,7 +54,7 @@ export default function HowItWorks() {
             />
           </CardContent>
         </Card>
-        <Card className="col-span-12 sm:col-span-3 lg:col-span-3">
+        <Card className="col-span-12 lg:col-span-3">
           <CardHeader>
             <CardTitle className="grid grid-cols-1 gap-2 font-inter text-[19.77px] font-semibold leading-[23.73px] text-left">
               <IconNumber3 />
@@ -77,7 +77,7 @@ export default function HowItWorks() {
             />
           </CardContent>
         </Card>
-        <div className="col-span-12 sm:col-span-3 lg:col-span-3">
+        <div className="col-span-12 lg:col-span-3">
           <div className="h-full rounded-lg bg-[url('/img/car-charger.png')] bg-no-repeat bg-cover"></div>
         </div>
       </div>

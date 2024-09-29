@@ -6,7 +6,6 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import { TickIcon } from "./icons/icons";
 
 export default function Earnings() {
@@ -15,7 +14,7 @@ export default function Earnings() {
       id="earnings"
       className="container mx-auto px-4 py-20 grid grid-cols-12 gap-4"
     >
-      <div className="col-span-3 grid grid-cols-1 gap-6">
+      <div className="col-span-12 lg:col-span-4 grid grid-cols-1 gap-6">
         <h2 className="text-[60px] font-bold leading-[72px] text-left">
           Earnings
         </h2>
@@ -36,7 +35,7 @@ export default function Earnings() {
           </CardContent>
         </Card>
       </div>
-      <div className="col-span-7">
+      <div className="col-span-12 lg:col-span-6">
         <Card className="col-span-12 sm:col-span-6 lg:col-span-3">
           <CardHeader>
             <CardTitle className="grid grid-cols-1 gap-4 font-raleway text-[30px] font-bold leading-[36px] text-left">
