@@ -66,3 +66,27 @@ export function LogoIcon(svgProps: SVGProps<SVGSVGElement>) {
     </div>
   );
 }
+
+export function IconNumber1() {
+  return (
+    <div className="flex justify-center items-center h-11 w-11 bg-[#F5F8FF] font-inter text-[24px] font-semibold leading-[28.8px] text-left">
+      1
+    </div>
+  );
+}
+
+export function IconNumber2() {
+  return (
+    <div className="flex justify-center items-center h-11 w-11 bg-[#F5F8FF] font-inter text-[24px] font-semibold leading-[28.8px] text-left">
+      2
+    </div>
+  );
+}
+
+export function IconNumber3() {
+  return (
+    <div className="flex justify-center items-center h-11 w-11 bg-[#F5F8FF] font-inter text-[24px] font-semibold leading-[28.8px] text-left">
+      3
+    </div>
+  );
+}

@@ -12,11 +12,11 @@ import { LogoIcon } from "./icons/icons";
 export default function Header() {
   return (
     <header className="container mx-auto p-4 grid grid-cols-12 gap-4">
-      <div className="col-span-2 flex items-center font-[Raleway] text-[24px] font-bold leading-[24px] text-center">
+      <div className="col-span-2 flex items-center font-raleway text-[24px] font-bold leading-[24px] text-center">
         <LogoIcon /> Drive Solar
       </div>
       <div className="col-span-8 flex justify-center">
-        <NavigationMenu className="bg-white">
+        <NavigationMenu className="bg-white rounded-full px-10">
           <NavigationMenuList>
             <NavigationMenuItem>
               <Link href="/docs" legacyBehavior passHref>

@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Accordion,
   AccordionContent,
@@ -7,7 +9,7 @@ import {
 
 export default function FAQ() {
   return (
-    <section className="container mx-auto px-20 py-20 grid grid-cols-12 gap-4">
+    <section className="container mx-auto px-20 py-20 grid grid-cols-12 gap-4 bg-[url('/img/faq.svg')] bg-cover bg-center bg-no-repeat">
       <div className="col-span-4">
         <h2>
           Frequently <br /> Asked <br /> Questions

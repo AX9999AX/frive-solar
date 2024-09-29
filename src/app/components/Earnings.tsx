@@ -1,6 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 
 export default function Earnings() {
   return (
@@ -20,10 +19,10 @@ export default function Earnings() {
           </CardContent>
         </Card>
       </div>
-      <div className="col-span-7">
+      <div className="col-span-9">
         <Card className="col-span-12 sm:col-span-6 lg:col-span-3">
           <CardHeader>
-            <CardTitle className="grid grid-cols-1 gap-2 font-inter text-[19.77px] font-semibold leading-[23.73px] text-left">
+            <CardTitle className="grid grid-cols-1 gap-4 font-inter text-[19.77px] font-semibold leading-[23.73px] text-left">
               Use Sun Energy
             </CardTitle>
           </CardHeader>
@@ -34,15 +33,6 @@ export default function Earnings() {
             </p>
           </CardContent>
         </Card>
-      </div>
-      <div className="col-span-2">
-        <Image
-          width={100}
-          height={100}
-          src="/img/car-and-house.png"
-          alt="Image"
-          className="w-full h-full rounded-md object-cover"
-        />
       </div>
     </section>
   );

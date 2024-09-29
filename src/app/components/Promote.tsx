@@ -17,7 +17,7 @@ export default function Promote() {
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <p className="font-[Inter] text-[14px] font-normal leading-[21px] text-left">
+            <p className="font-inter text-[14px] font-normal leading-[21px] text-left">
               Harness the limitless power of the sun to create sustainable
               energy solutions. Reduce your carbon footprint, lower energy costs
             </p>
@@ -68,6 +68,7 @@ export default function Promote() {
               <Image
                 width={238}
                 height={257}
+                layout="responsive"
                 src="/img/funny-man.png"
                 alt="Image"
                 className="w-full h-64 rounded-md object-cover"
