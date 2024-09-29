@@ -16,7 +16,7 @@ export default function Header() {
         <LogoIcon /> Drive Solar
       </div>
       <div className="col-span-8 flex justify-center">
-        <NavigationMenu className="bg-white rounded-full px-10">
+        <NavigationMenu className="bg-white rounded-full px-10 hidden md:block">
           <NavigationMenuList>
             <NavigationMenuItem>
               <Link href="/docs" legacyBehavior passHref>

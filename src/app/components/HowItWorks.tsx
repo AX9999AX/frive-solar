@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function HowItWorks() {
   return (
-    <section className="container mx-auto px-4 bg-[url('/img/howItWorks.svg')] bg-cover bg-center bg-no-repeat">
+    <section className="container mx-auto px-4 bg-[url('/img/howItWorks.svg')] bg-no-repeat bg-[length:25%] bg-[position:95%_50%]">
       <h2 className="font-raleway text-[60px] font-bold leading-[72px] text-left mb-4">
         How it Works
       </h2>
@@ -26,7 +26,7 @@ export default function HowItWorks() {
               width={238}
               height={257}
               layout="responsive"
-              src="/img/funny-man.png"
+              src="/img/solar-panel.png"
               alt="Image"
               className="w-full h-64 rounded-md object-cover"
             />
@@ -48,7 +48,7 @@ export default function HowItWorks() {
               width={238}
               height={257}
               layout="responsive"
-              src="/img/funny-man.png"
+              src="/img/charger.png"
               alt="Image"
               className="w-full h-64 rounded-md object-cover"
             />
@@ -71,7 +71,7 @@ export default function HowItWorks() {
               width={238}
               height={257}
               layout="responsive"
-              src="/img/funny-man.png"
+              src="/img/man-and-car.png"
               alt="Image"
               className="w-full h-64 rounded-md object-cover"
             />

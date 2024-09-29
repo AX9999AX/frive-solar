@@ -67,6 +67,49 @@ export function LogoIcon(svgProps: SVGProps<SVGSVGElement>) {
   );
 }
 
+export function PCIcon(svgProps: SVGProps<SVGSVGElement>) {
+  return (
+    <div className="flex justify-center items-center h-11 w-11 bg-[#F5F8FF]">
+      <svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        {...svgProps}
+      >
+        <path
+          d="M8 16H4C2.34315 16 1 14.6569 1 13V4C1 2.34315 2.34315 1 4 1H16C17.6569 1 19 2.34315 19 4V13C19 14.6569 17.6569 16 16 16H12M8 16V19M8 16H12M12 16V19M8 19H12M8 19H7M12 19H13"
+          stroke="#252432"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </div>
+  );
+}
+
+export function SoulutionIcon(svgProps: SVGProps<SVGSVGElement>) {
+  return (
+    <div className="flex justify-center items-center h-11 w-11 bg-[#F5F8FF]">
+      <svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        {...svgProps}
+      >
+        <path
+          d="M7.01009 9.75C7.4243 9.75 7.76009 9.4142 7.76009 9C7.76009 8.5858 7.4243 8.25 7.01009 8.25V9.75ZM7.00009 8.25C6.58587 8.25 6.25009 8.5858 6.25009 9C6.25009 9.4142 6.58587 9.75 7.00009 9.75V8.25ZM13.01 9.75C13.4243 9.75 13.76 9.4142 13.76 9C13.76 8.5858 13.4243 8.25 13.01 8.25V9.75ZM13 8.25C12.5858 8.25 12.25 8.5858 12.25 9C12.25 9.4142 12.5858 9.75 13 9.75V8.25ZM4.77818 6.75H15.222V5.25H4.77818V6.75ZM17.4653 8.8274L18.0038 15.8274L19.4994 15.7124L18.9609 8.7124L17.4653 8.8274ZM15.7604 18.25H4.23972V19.75H15.7604V18.25ZM1.99635 15.8274L2.53481 8.8274L1.03923 8.7124L0.500771 15.7124L1.99635 15.8274ZM4.23972 18.25C2.92907 18.25 1.89583 17.1342 1.99635 15.8274L0.500771 15.7124C0.333231 17.8904 2.05531 19.75 4.23972 19.75V18.25ZM18.0038 15.8274C18.1043 17.1342 17.0711 18.25 15.7604 18.25V19.75C17.9448 19.75 19.6669 17.8904 19.4994 15.7124L18.0038 15.8274ZM15.222 6.75C16.3977 6.75 17.3752 7.65519 17.4653 8.8274L18.9609 8.7124C18.8106 6.75865 17.1815 5.25 15.222 5.25V6.75ZM4.77818 5.25C2.81867 5.25 1.18951 6.75865 1.03923 8.7124L2.53481 8.8274C2.62498 7.65519 3.60248 6.75 4.77818 6.75V5.25ZM12.25 4V6H13.75V4H12.25ZM7.75009 6V4H6.25009V6H7.75009ZM10 1.75C11.2427 1.75 12.25 2.75736 12.25 4H13.75C13.75 1.92893 12.0711 0.25 10 0.25V1.75ZM10 0.25C7.92902 0.25 6.25009 1.92893 6.25009 4H7.75009C7.75009 2.75736 8.75744 1.75 10 1.75V0.25ZM7.01009 8.25H7.00009V9.75H7.01009V8.25ZM13.01 8.25H13V9.75H13.01V8.25Z"
+          fill="#252432"
+        />
+      </svg>
+    </div>
+  );
+}
+
 export function IconNumber1() {
   return (
     <div className="flex justify-center items-center h-11 w-11 bg-[#F5F8FF] font-inter text-[24px] font-semibold leading-[28.8px] text-left">

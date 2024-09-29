@@ -9,7 +9,7 @@ import Promote from "./components/Promote";
 export default function Home() {
   return (
     <>
-      <div className="bg-[url('/img/bg-hero.png')] bg-cover bg-center bg-no-repeat">
+      <div className="bg-[url('/img/hero-bg.svg')] bg-no-repeat bg-[length:60%] bg-[position:50%_10%]">
         <Header />
         <HeroBlock />
       </div>
